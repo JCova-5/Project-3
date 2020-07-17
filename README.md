@@ -40,11 +40,15 @@
 | Additional Styling (effects) for the page | M | 2hrs| - | - |
 | Total | H | 26.5hrs| -| -|
 
-# MVP 
-- MVP specifications (Group) 
-
-# PostMVP
-- PostMVP specifications
+#### MVP
+- Create mongoDB using mongoose
+- Use the api created by mongoDB
+- Create components
+- Create Functionality for reading, adding, deleting, and updating
+- Allow user to input their selections for order
+- Allow user to navigate to past orders and search by their name
+#### PostMVP
+- Additional Styling and animations
 
 ## Components description
 - Header
