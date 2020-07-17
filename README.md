@@ -46,9 +46,10 @@
 - Create components
 - Create Functionality for reading, adding, deleting, and updating
 - Allow user to input their selections for order
-- Allow user to navigate to past orders and search by their name
+- Allow user to navigate to past orders
 #### PostMVP
 - Additional Styling and animations
+- Allow users to search by their name
 
 ## Components description
 - Header
