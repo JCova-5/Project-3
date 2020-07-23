@@ -31,18 +31,17 @@
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create react app and components| H | .5hr| - | - |
-| Install packages and Set up React Routing | H | .5hr| - | - |
-| Make APIcall from App | H | .5hr| - | - |
-| Set up the layout components (Header, NavBar, Footer) | H | .5hr | - | - |
-| Home component | H | 1hr| - | - |
-| New order component | H | 2hr| - | - |
-| Functionality of order form | H | 5hr| - | - |
-| make delete / filter functionality in Past Order | H | 2.5hrs| - | - |
-| Basic Styling for nav, footer, about page | H | 2hrs| - | - |
-| Basic Styling for main | H | 10hrs| - | - |
-| Additional Styling (effects) for the page | M | 2hrs| - | - |
-| Total | H | 26.5hrs| -| -|
+| Create react app and components| H | .5hr| .5 hr | .5 hr |
+| Install packages and Set up React Routing | H | .5hr| .5 hr | .5hr |
+| Make APIcall from App | H | .5hr| .5hr | .5hr |
+| Set up the layout components (Header, NavBar, Footer) | H | .5hr | 1hr | 1hr |
+| Home component | H | 1hr| .5hr | .5hr |
+| New order component | H | 2hr| 2hr | 2hr |
+| Functionality of order form | H | 5hr| 6hr | 6hr |
+| make delete / filter functionality in Past Order | H | 2.5hrs| 6hr | 6hr |
+| Basic Styling for nav, footer, about page | H | 2hrs| 2hr | 2hr |
+| Basic Styling for main | H | 10hrs| 4hrs | 4hrs |
+| Total | H | 26.5hrs| 23hrs | 23hrs | 
 
 #### MVP
 - Create mongoDB using mongoose
