@@ -6,8 +6,12 @@
 
 
 # Project Links 
-- frontend git 
-- [backend git]()
+## Project URL
+- [iceCreamYum](http://icecreamyum.surge.sh/)
+
+## Git Repos
+- [frontend git](https://github.com/DavidSwanberg/frontend_project3) 
+- [backend git](https://github.com/JCova-5/ColdTreatsBackend)
 
 # Wireframs/Architecture
 - [WireFrame](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
@@ -17,13 +21,13 @@
   
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create Model | E | 1hr| n/a | n/a |
-| Create Controller | M | 1 hour| n/a | n/a |
-| Setup Server | E | .5hr| n/a | n/a |
-| Set up Conections  | E | .5hr| n/a | n/a |
-| create Seed File  | M | 1hrs| n/a | n/a |
-| Research  | E | 2hrs| n/a | n/a |
-| Total | H | 6hrs| n/a| n/a|
+| Create Model | E | 1hr| 1hr | 1hr |
+| Create Controller | M | 1 hour| 2hrs | 2hrs |
+| Setup Server | E | .5hr| 1hr | 1hr |
+| Set up Conections  | E | .5hr| 2hrs | 2hrs |
+| create Seed File  | M | 1hr | 2.5hrs | 2.5hrs |
+| Research  | E | 2hrs| 3hrs | 3hrs |
+| Total | H | 6hrs| 11.5 | 11.5 |
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -75,7 +79,8 @@
 
 - The Milkshakes Schema will contain keys with the value of flavor, toppings, size and price. The flavors, toppings and size values will be set to String and the value of price will be set to Number.
 - The Ice Cream Schema will contain keys that hold values of flavor, toppings, size that will all be set to strings. In addition to those we will also throw in a price value set to a number.
-- We will create two seperate controllers. One will contain the Schema and model for the milkshakes while the other holds the Ice Cream Schema and model
+- The Menu schema will hold a list of our menu items. The schema will contain values of flavor, toppings, holder and size, so that the frontend can pull that info and set up a menu in the app where users can see what options they have to choose from.
+- We will create three seperate controllers. One will contain the Schema and model for the milkshakes, the other holds the Ice Cream Schema and model, and the menu will function with the menu schema and model.
 
 # Additional libraries
 - Axios
