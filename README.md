@@ -21,13 +21,14 @@
   
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create Model | E | 1hr| 1hr | 1hr |
-| Create Controller | M | 1 hour| 2hrs | 2hrs |
-| Setup Server | E | .5hr| 1hr | 1hr |
-| Set up Conections  | E | .5hr| 2hrs | 2hrs |
-| create Seed File  | M | 1hr | 2.5hrs | 2.5hrs |
-| Research  | E | 2hrs| 3hrs | 3hrs |
-| Total | H | 6hrs| 11.5 | 11.5 |
+| Create Model | E | 1hr | 3hrs | 3hrs |
+| Create Controller | E | 2 hour | 4hrs | 4hrs |
+| Setup Server | E | .5hr| .5hrs | .5hrs |
+| Set up Conections  | E | .5hrs| .5hrs | .5hrs |
+| create Seed File  | M | 2hrs | 4hrs | 4hrs |
+| Research  | E | 2hrs| 4hrs | 4hrs |
+| Deployment  | H | 2hrs| 2hrs | 2hrs |
+| Total | H | 10hrs | 18hrs | 18hrs |
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -91,7 +92,25 @@
 - project code 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const handleSizeSelect = event =>{
+  if (event.target.value ==='small'){
+    setInput({
+      ...input,
+       size: 'small',
+       price: 5
+     });
+  }else if(event.target.value ==='medium'){
+    setInput({
+      ...input,
+       size: 'medium',
+       price: 6
+     });
+  }else{
+    setInput({
+      ...input,
+       size: 'large',
+       price: 7
+     });
+  }
 }
 ```
