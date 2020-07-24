@@ -59,7 +59,7 @@
 - Header
   - Shared component that sits at the top of the page and contains site title/tagline/logo
 - Nav
-  Shared component right below Header, contains links to the components Home, New Order, annd Past - - - Order
+  Shared component right below Header, contains links to the components Home, New Order, and Past-Orders
 - Home
   - Simple landing page with graphic/tagline/eetc.
 - New Order
